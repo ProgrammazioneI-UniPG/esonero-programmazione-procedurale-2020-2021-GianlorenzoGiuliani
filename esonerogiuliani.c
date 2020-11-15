@@ -4,7 +4,7 @@
 #include <string.h>
 int main(){
   char str1[128], str2[128], out[128], strrand[128], dec[128];
-  int sc, sc2, i, lun1, lun2=0;
+  int sc, i, lun1, lun2=0;
   time_t t;
   srand((unsigned) time(&t));
   printf("Cifratore con operazione XOR\ninserisci stringa (massimo 128 caratteri)\n");
